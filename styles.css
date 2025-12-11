@@ -122,7 +122,9 @@ header a {
 
   #adjust {
     width: 58%;
+    height: 100%;
     background-color: #ffffff;
+    border-left: 1px solid #f3f4f6;
   }
 
   #mobile-logo {
