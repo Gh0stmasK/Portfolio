@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sourav Chakraborty | Full Stack Developer From Jamshedpur, India.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
             <a href="#home" id="logo">&lt;SC /&gt;</a>
-            <img src="Assets/MobileIcon.svg" alt="Mobile Icon" id="mobile-menu">
+            <img src="Assets/MobileIcon.svg" alt="Mobile Icon" id="mobile-menu" onclick="mobile_menu()">
         </nav>
         <ul class="menu-items">
             <li><a href="#home">About</a></li>
@@ -25,6 +27,30 @@
                 </ul>
             </li>
         </ul>
+        <div class="mobile-menu-overlay">
+            <div id="adjust">
+                <div class="logo-actions">
+                <a href="#home" id="mobile-logo">&lt;SC /&gt;</a>
+                <img src="Assets/MobileIconclose.svg" alt="" id="close-btn">
+            </div>
+            <ul class="mobile-menu-items">
+                <li><a href="#home">About</a></li>
+                <li><a href="#home">Work</a></li>
+                <li><a href="#home">Testimonials</a></li>
+                <li><a href="#home">Contact</a></li>
+            </ul>
+            <div class="mobile-actions">
+                <div>
+                    <p>Switch Theme</p>
+                    <img src="Assets/DarkmodeIcon.svg" alt="">
+                </div>
+                <a href="">Download CV</a>
+            </div>
+            </div>
+            
+        </div>
     </header>
+    <script src="script.js"></script>
 </body>
+
 </html>
