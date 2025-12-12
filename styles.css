@@ -309,6 +309,7 @@ header a {
 
   #mobile-menu {
     display: unset;
+    z-index: 10;
   }
 
   #mobile-menu {
