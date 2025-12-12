@@ -247,6 +247,7 @@ header a {
 
 .about-img-container {
   width: 100%;
+  padding-right: 145px;
 }
 
 .about-text-container {
@@ -275,6 +276,23 @@ header a {
   font-weight: 600;
   letter-spacing: -1px;
   padding-bottom: 24px;
+}
+
+.text-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-text-content ul{
+  list-style: inside disc;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.about-text-content ul li{
+  width: 100%;
 }
 
 @media screen and (min-width: 1px) and (max-width: 799px) {
