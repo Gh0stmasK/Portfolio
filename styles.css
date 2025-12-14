@@ -366,6 +366,7 @@ header a {
     width: 100%;
     border-top: 1px solid #f3f4f6;
     border-bottom: 1px solid #f3f4f6;
+    background-color: #ffffff;
   }
 
   .mobile-menu-items li a {
@@ -382,6 +383,8 @@ header a {
     gap: 16px;
     padding: 16px;
     width: 100%;
+    background-color: #ffffff;
+    height: 100vh
   }
 
   .mobile-actions div {
