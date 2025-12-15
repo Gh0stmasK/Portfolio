@@ -486,7 +486,7 @@ footer p {
   .hero {
     flex-direction: column-reverse;
     align-items: center;
-    padding: 120px 30px 64px 30px;
+    padding: 120px 30px 40px 30px;
   }
 
   .img-adjust {
@@ -510,7 +510,7 @@ footer p {
   }
 
   .about {
-    padding: 64px 30px;
+    padding: 40px;
     gap: unset;
   }
 
@@ -553,7 +553,7 @@ footer p {
   }
 
   .skill {
-    padding: 64px 30px;
+    padding: 40px;
   }
 
   .skill .tool-item {
@@ -569,6 +569,6 @@ footer p {
     height: 70px;
   }
   footer {
-    padding: 20px 30px;
+    padding: 40px;
   }
 }
