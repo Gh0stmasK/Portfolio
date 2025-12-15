@@ -308,6 +308,42 @@ header a {
   width: 100%;
 }
 
+.skill{
+  padding: 96px 30px;
+}
+
+.skill-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-head {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #4b5563;
+  background-color: #e5e7eb;
+  padding: 4px 20px;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.skill-descp {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #4b5563;
+}
+
+.tool-item p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #4B5563;
+}
+
 @media screen and (min-width: 1px) and (max-width: 799px) {
   header {
     padding: 16px;
@@ -384,7 +420,7 @@ header a {
     padding: 16px;
     width: 100%;
     background-color: #ffffff;
-    height: 100vh
+    height: 100vh;
   }
 
   .mobile-actions div {
@@ -412,7 +448,7 @@ header a {
     align-items: center;
   }
 
-  .about-img-container{
+  .about-img-container {
     width: unset;
     padding-right: unset;
   }
