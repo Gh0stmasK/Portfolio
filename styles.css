@@ -499,8 +499,24 @@ footer p {
     width: 100%;
   }
 
+  .text-line h1{
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .text-line p{
+    font-size: 14px;
+    text-align: justify;
+  }
+
   .about {
     padding: 64px 16px;
+  }
+
+  .about .heading{
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
   }
 
   .about-img-container {
@@ -522,12 +538,20 @@ footer p {
     width: 100%;
   }
 
+  .about-text-content .text{
+    text-align: justify;
+  }
+
+  .about-text-content ul {
+    flex-direction: column;
+  }
+
   .tool-container {
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     gap: 40px;
   }
 
-  .skill{
+  .skill {
     padding: 64px 16px;
   }
 
@@ -539,7 +563,7 @@ footer p {
   .skill .tool-item p {
     font-size: 15px;
   }
-  .tool-item img{
+  .tool-item img {
     width: 70px;
     height: 70px;
   }
