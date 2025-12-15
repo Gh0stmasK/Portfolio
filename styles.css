@@ -527,7 +527,10 @@ footer p {
     height: 100%;
   }
 
-  .skill .tool-item p{
+  .skill .tool-item p {
     font-size: 15px;
+  }
+  footer {
+    padding: 24px 0px;
   }
 }
