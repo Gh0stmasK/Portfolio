@@ -321,7 +321,7 @@ header a {
 }
 
 .skill-head {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 500;
   color: #4b5563;
@@ -336,6 +336,26 @@ header a {
   line-height: 28px;
   font-weight: 400;
   color: #4b5563;
+}
+
+.tool-container{
+  padding-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 48px;
+}
+
+.tool-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.tool-item img:hover {
+  transform: scale(1.2);
+  transition: transform 300ms cubic-bezier(.4,0,.2,1);
 }
 
 .tool-item p {
@@ -448,6 +468,17 @@ header a {
     align-items: center;
   }
 
+  .img-adjust {
+    padding-left: 0;
+  }
+
+  .border img{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
   .about-img-container {
     width: unset;
     padding-right: unset;
@@ -458,5 +489,12 @@ header a {
     align-items: center;
     justify-content: center;
     gap: 48px;
+  }
+
+  .about-img-adjust img{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
 }
