@@ -498,6 +498,10 @@ footer p {
     width: 100%;
   }
 
+  .about {
+    padding: 64px 30px;
+  }
+
   .about-img-container {
     width: unset;
     padding-right: unset;
@@ -520,6 +524,7 @@ footer p {
   .tool-container {
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     gap: 40px;
+    padding: 20px;
   }
 
   .skill{
