@@ -524,7 +524,6 @@ footer p {
   .tool-container {
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     gap: 40px;
-    padding: 20px;
   }
 
   .skill{
@@ -539,8 +538,12 @@ footer p {
   .skill .tool-item p {
     font-size: 15px;
   }
+  .tool-item img{
+    width: 70px;
+    height: 70px;
+  }
   footer {
     padding: 20px 0px;
-    
+
   }
 }
