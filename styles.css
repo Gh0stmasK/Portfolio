@@ -486,7 +486,7 @@ footer p {
   .hero {
     flex-direction: column-reverse;
     align-items: center;
-    padding: 120px 30px;
+    padding: 120px 30px 64px 30px;
   }
 
   .img-adjust {
@@ -506,12 +506,12 @@ footer p {
   }
 
   .text-line p{
-    font-size: 14px;
     text-align: justify;
   }
 
   .about {
     padding: 64px 30px;
+    gap: unset;
   }
 
   .about .heading{
@@ -549,7 +549,7 @@ footer p {
 
   .tool-container {
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    gap: 40px;
+    gap: 50px;
   }
 
   .skill {
