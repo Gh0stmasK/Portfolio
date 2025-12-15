@@ -500,12 +500,12 @@ footer p {
     width: 100%;
   }
 
-  .text-line h1{
+  .text-line h1 {
     font-size: 50px;
     text-align: center;
   }
 
-  .text-line p{
+  .text-line p {
     text-align: justify;
   }
 
@@ -514,7 +514,7 @@ footer p {
     gap: unset;
   }
 
-  .about .heading{
+  .about .heading {
     font-size: 28px;
     width: 100%;
     text-align: center;
@@ -539,7 +539,7 @@ footer p {
     width: 100%;
   }
 
-  .about-text-content .text{
+  .about-text-content .text {
     text-align: justify;
   }
 
