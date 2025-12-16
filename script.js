@@ -72,7 +72,13 @@ themeIcon2.addEventListener('click', () => {
     document.body.classList.toggle('dark-theme');
     if (document.body.classList.contains('dark-theme')) {
         themeIcon2.src = 'Assets/lightmodeIcon.svg';
+        document.querySelectorAll('.svg-adjust').forEach((element) => {
+            element.setAttribute('fill', 'white');
+        });
     } else {
         themeIcon2.src = 'Assets/DarkmodeIcon.svg';
+        document.querySelectorAll('.svg-adjust').forEach((element) => {
+            element.setAttribute('fill', 'black');
+        });
     }
 });
