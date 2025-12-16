@@ -58,10 +58,16 @@ themeIcon.addEventListener('click', () => {
         document.querySelectorAll('.svg-adjust').forEach((element) => {
             element.setAttribute('fill', 'white');
         });
+        document.querySelectorAll('.svg-adjust2').forEach((element) => {
+            element.setAttribute('stroke', 'white');
+        });
     } else {
         themeIcon.src = 'Assets/DarkmodeIcon.svg';
         document.querySelectorAll('.svg-adjust').forEach((element) => {
             element.setAttribute('fill', 'black');
+        });
+        document.querySelectorAll('.svg-adjust2').forEach((element) => {
+            element.setAttribute('stroke', '#4B5563');
         });
     }
 });
@@ -75,10 +81,16 @@ themeIcon2.addEventListener('click', () => {
         document.querySelectorAll('.svg-adjust').forEach((element) => {
             element.setAttribute('fill', 'white');
         });
+        document.querySelectorAll('.svg-adjust2').forEach((element) => {
+            element.setAttribute('stroke', 'white');
+        });
     } else {
         themeIcon2.src = 'Assets/DarkmodeIcon.svg';
         document.querySelectorAll('.svg-adjust').forEach((element) => {
             element.setAttribute('fill', 'black');
+        });
+        document.querySelectorAll('.svg-adjust2').forEach((element) => {
+            element.setAttribute('stroke', '#4B5563');
         });
     }
 });
