@@ -10,6 +10,20 @@
   --accent-color: #10b981;
 }
 
+body.dark-theme {
+  --primary-color: #f9fafb;
+  --secondary-color: #d1d5db;
+  --background-color: #111827;
+  --border-color: #374151;
+  --background-color-default: #030712;
+  /* 
+
+  --background-color-alt: #374151; */
+  
+  /* --border-color: #4b5563;
+  --accent-color: #34d399; */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -125,6 +139,7 @@ header a {
   /* padding-top: 30px;
   padding-bottom: 16px; */
   padding: 180px 30px 120px 30px;
+  background-color: var(--background-color-default);
 }
 
 .hero-text-container {
@@ -139,6 +154,7 @@ header a {
   line-height: 120%;
   font-weight: bold;
   letter-spacing: -2px;
+  color: var(--primary-color);
 }
 
 .text-line p {
@@ -306,6 +322,7 @@ header a {
   font-weight: 600;
   letter-spacing: -1px;
   padding-bottom: 24px;
+  color: var(--primary-color);
 }
 
 .text-list {
@@ -327,6 +344,7 @@ header a {
 
 .skill {
   padding: 96px 30px;
+  background-color: var(--background-color-default);
 }
 
 .skill-text-container {
@@ -375,6 +393,11 @@ header a {
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.tool-item svg:hover {
+  transform: scale(1.2);
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .tool-item p {
   font-size: 18px;
   line-height: 28px;
@@ -383,6 +406,7 @@ header a {
 
 .contact {
   padding: 96px 30px;
+  background-color: var(--background-color-default);
 }
 
 .contact-container {
@@ -458,7 +482,7 @@ header a {
 
 footer {
   padding: 24px 80px;
-  background-color: var(--background-color-alt);
+  background-color: var(--background-color);
 }
 
 footer p {

@@ -47,3 +47,32 @@ copyButton2.addEventListener('click', () => {
             alert('Failed to copy text. Please copy manually.');
         });
 });
+
+
+
+const themeIcon = document.querySelector('.theme-icon');
+themeIcon.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme');
+    if (document.body.classList.contains('dark-theme')) {
+        themeIcon.src = 'Assets/lightmodeIcon.svg';
+        document.querySelectorAll('.svg-adjust').forEach((element) => {
+            element.setAttribute('fill', 'white');
+        });
+    } else {
+        themeIcon.src = 'Assets/DarkmodeIcon.svg';
+        document.querySelectorAll('.svg-adjust').forEach((element) => {
+            element.setAttribute('fill', 'black');
+        });
+    }
+});
+
+
+const themeIcon2 = document.querySelector('.theme-icon-2');
+themeIcon2.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme');
+    if (document.body.classList.contains('dark-theme')) {
+        themeIcon2.src = 'Assets/lightmodeIcon.svg';
+    } else {
+        themeIcon2.src = 'Assets/DarkmodeIcon.svg';
+    }
+});
